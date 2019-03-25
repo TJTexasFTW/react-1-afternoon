@@ -30,7 +30,7 @@ export default class EvenAndOdd extends Component {
     }
     
         this.setState({ evenArray: evenArr, oddArray: oddArr });
-        alert("Evens: " + evenArr + "  Odds: " + oddArr);
+        // alert("Evens: " + evenArr + "  Odds: " + oddArr);
       }
     
 
