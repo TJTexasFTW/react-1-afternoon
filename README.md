@@ -918,7 +918,7 @@ In this step, we'll build out the `FilterString` component.
 * Remove the `<p>` element from the `return` of the `render` method.
 * Add the component outline to the `return` of the `render` method.
 * Add the following `className` props to the outline:
-  * `div` - className="puzzleBox filterStringPB"
+  * `div` - className="puzzleBox (TYPO: should be: palindromePB) filterStringPB"
   * The first `span` - className="puzzleText"
   * `input` - className="inputLine"
   * `button` - className="confirmationButton"
