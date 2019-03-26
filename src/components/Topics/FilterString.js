@@ -34,7 +34,7 @@ export default class FilterString extends Component {
 
     render() {
     return (
-        <div className="puzzleBox filterStringPB">
+    <div className="puzzleBox filterStringPB">
         <h4>Filter String</h4>
         <input className="inputLine" onChange={ (e) => this.handleChange(e.target.value) } placeholder="Type in string to filter out"></input>
         <button className="confirmationButton" onClick={ () => { this.filterStuff(this.state.userInput) }}>Get Results</button>

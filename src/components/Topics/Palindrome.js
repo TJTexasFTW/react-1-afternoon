@@ -35,7 +35,7 @@ aPalindrome(userInput) {
 
       <div className="puzzleBox palindromePB">
         <h4>Palindrome</h4>
-        <input className="inputLine" onChange={ (e) => this.handleChange(e.target.value) } placeholder="Type in string to filter out"></input>
+        <input className="inputLine" onChange={ (e) => this.handleChange(e.target.value) } placeholder="Type in word/phrase to check"></input>
         <button className="confirmationButton" onClick={ () => { this.aPalindrome(this.state.userInput) }}>Get Results</button>
         <span className="resultsBox filterStringRB">Palindrome: {this.state.palindrome}</span>
     </div>
